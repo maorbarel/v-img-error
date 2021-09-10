@@ -1,7 +1,7 @@
 {
   "name": "v-img-error",
   "version": "1.0.0",
-  "description": " A simple Vue directive to catch img errors and broken links and replace them with default or custom placeholder",
+  "description": " A simple Vue directive to catch img errors and broken links and replace them with default or custom fallback",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,11 @@
     "error",
     "broken",
     "link",
+    "fallback",
+    "image",
+    "v-image",
+    "v-img",
+    "v-error",
     "placeholder",
     "reactive"
   ],
