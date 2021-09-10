@@ -1,7 +1,3 @@
-# v-img-error
- A simple Vue directive to catch img errors & broken links and replace them with default or custom fallback
-
-
 <h1 align="center">
     <img src="https://i.ibb.co/0cL1wQ5/d440mmj72v2vi7ad76ir-2.jpg" alt="vImgError logo" />
     <br>
