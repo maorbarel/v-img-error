@@ -1,11 +1,11 @@
-import defaultFallbackSVG from '../assets/defaultFallback.svg';
+import defaultFallback from '../assets/defaultFallback.jpg';
 
 export function checkIsAssetValid(assetUrl = '') {
-  if (!assetUrl) return defaultFallbackSVG;
+  if (!assetUrl) return defaultFallback;
   return new Promise(function (resolve) {
     const img = new Image();
     img.onerror = function () {
-      resolve(defaultFallbackSVG)
+      resolve(defaultFallback)
     }
     img.onload = function () {
       resolve(assetUrl)
